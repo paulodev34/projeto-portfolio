@@ -1,7 +1,8 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: "Budokan Rounded"  sans-serif;;	
+	font-family: 'Roboto Slab', serif;
+
 }
 
 html,body{
@@ -12,9 +13,7 @@ body{
 	background-color: #1C1C1C;
 }
 
-.clear{
-	clear: both;
-}
+
 
 .container{
 	width:100%;
@@ -22,55 +21,22 @@ body{
 	text-align: center;
 }
 
-img {
-	width: 6rem;
-	height: 6rem;
-	margin-left: 25rem ;
-}
-
 .icon{
-	display: flex;
-	column-gap: 25px;
-}
-
-.icons{
-	width: 60px;
-	height: 60px;
+	width: 300px;
+	height: 10rem;
+	margin:0 2.5rem;
 	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	text-decoration: none;
-	font-size: 26px;
-	color: #fff;
-	border-radius: 50%;
-	outline: 2px solid #fff;
-	transition-property: outline-offset, outline, background-color;
-	transition-duration: .25s;
+
 }
 
-.icons:hover{
-	outline-offset: 4px;
+.icon a img{
+	width: 4rem;
+	height: 4rem;
+	margin-left: 400px;
+
 }
 
-.icons:hover i{
-	animation: shake .25s;
-}
 
-.icon--Linkedln:hover{
-	background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5% 
-	#fd5949 45%, #d6249f 60%, #285AEB 90%);
-	outline-color: #a02d76;	
-}
-
-.icon--Linkedln:hover{
-	background-color: #0077b5;
-	outline-color: #0077b5;
-}
-
-.icon--github:hover{
-	background-color: #2ea44f;
-	outline-color: #2ea44f;
-}
 
 .container h1{
 	font-size: 5rem;
@@ -88,45 +54,50 @@ img {
 }
 
 .container2{
-	width: 20rem;
-	height: 22rem;
-	float: left;
-	margin: 6rem 15rem;
+	margin: 6rem 33rem;
 	border-radius: 1rem;
-	background-color: white;
+	
+}
+
+.container2 img{
+	margin-top: 1rem;
+	width: 3rem;
+	height: 3rem;
+	margin-left: 7.8rem;
+	color: #6A5ACD;
 }
 
  h1{
 	text-align: center;
+	margin-top: 1.3rem;
+	color: white;
+}
+
+p{
+	text-align: center;
+	margin-top: 1rem;
+	margin-top: 1.5rem;
+	color: white;
 }
 
 .container3{
-	width: 20rem;
-	height: 22rem;
-	float: left;
-	margin-top: 6rem;
-	border-radius: 1rem;
-	background-color: white;
+	margin: 6rem 33rem;
 }
 
-.container2 h1{
-	margin-top: 1.3rem;
+.container3 img{
+	margin-top: 1rem;
+	width: 3rem;
+	height: 3rem;
+	margin-left: 7.8rem;
 }
+
 
 .descrisao{
 	margin: 3rem 25rem;
-	width: 35rem ;
-	height: 25rem;
-	background-color: white;
-	border-radius: 1rem;
+	color: white;
 }
 
 .descrisao h1{
 	padding-top: 2rem;
 }
 
-@keyframes shake {
-	10%{transform: rotate(15deg);}
-	20%{transform: rotate(-15deg);}
-
-}
